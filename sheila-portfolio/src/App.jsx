@@ -66,19 +66,19 @@ function App() {
                 (including pixel art), gaming, and photography.
               </p>
             </div>
-            <img src="src/assets/headshot-circle.jpg" id="headshot"></img>
+            <img src="./portfolio/headshot-circle.jpg" id="headshot"></img>
           </div>
           <hr></hr>
           <div className="block">
             <h3 id="headingSkills">I am comfortable working with...</h3>
             <div id="logos">
-              <img src="src/assets/cs.svg" id="csLogo"></img>
-              <img src="src/assets/cpp.png" id="cppLogo"></img>
-              <img src="src/assets/mern.png" id="mernPic"></img>
-              <img src="src/assets/arduion.png" id="ardLogo"></img>
-              <img src="src/assets/springboot.svg" id="sprLogo"></img>
-              <img src="src/assets/PHP-logo.svg" id="phpLogo"></img>
-              <img src="src/assets/git.png" id="gitLogo"></img>
+              <img src="./portfolio/cs.svg" id="csLogo"></img>
+              <img src="./portfolio/cpp.png" id="cppLogo"></img>
+              <img src="./portfolio/mern.png" id="mernPic"></img>
+              <img src="./portfolio/arduion.png" id="ardLogo"></img>
+              <img src="./portfolio/springboot.svg" id="sprLogo"></img>
+              <img src="./portfolio/PHP-logo.svg" id="phpLogo"></img>
+              <img src="./portfolio/git.png" id="gitLogo"></img>
             </div>
             <p className="lead text-center" id="learnBlurb">
               and always willing to push forward + learn new frameworks,
