@@ -1,0 +1,252 @@
+/* TODO: WRITE MEDIA QUERIES FOR DIFFERENT SIZES */
+#headshot {
+  height: 250px;
+  grid-column: auto;
+  /* border-radius: 20px; */
+
+}
+#aboutMeParagraph {
+  /* background-color: orange; */
+
+}
+#aboutMe {
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 60% 30%;
+  text-align: center;
+  align-self: center;
+  max-width: 75%;
+  padding: 2rem;
+  gap: 10%;
+  /* background-color: yellow; */
+}
+#projectsDiv {
+  text-align: center;
+}
+#blurb {
+  grid-column: 1 / 2;
+  width: 100%;
+  /* background-color: yellow; */
+  padding: 20px;
+  border-radius: 10px;
+} 
+h3 {
+  font-weight: 300 !important;
+  text-align: center;
+  color: rgb(163, 88, 88) !important;
+  font-size: 40px !important;
+  line-height: 1.2 !important;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.navbar-nav {
+  /* height: 5rem; */
+  /* gap: 10rem; */
+}
+.navbar {
+  background-color: rgb(241, 233, 234);
+}
+.navbar.active {
+  box-shadow:  0 4px 2px -2px rgb(195, 193, 193);
+}
+.navbar.darkMode {
+  background-color: rgb(117, 107, 108);
+}
+li {
+  color: rgb(0, 0, 0);
+}
+hr {
+/* background-color: rgb(213, 216, 213); */
+height: 20px;
+}
+#blurbLine {
+  font-weight: bold;
+}
+p {
+  margin-bottom: 2em !important;
+}
+
+#header {
+  padding: 3rem;
+  background: linear-gradient(90deg, #5c7387 0%, rgb(132, 86, 86) 100%);
+  color: rgb(231, 220, 211);
+}
+#ardLogo, #sprLogo, #phpLogo, #csLogo {
+  width: 90px;
+  height: 60px;
+}
+#learnBlurb {
+  margin-top: 7%;
+}
+#logos {
+  display: flex;
+  padding-top: 5%;
+  justify-content: space-evenly;
+}
+nav a:hover {
+  background-color: #e2dbda;
+  /* box-shadow: 1px rgb(133, 119, 119); */
+}
+
+#cppLogo {
+  width: 55px;
+  height: 60px;
+}
+#gitLogo {
+  height: 60px;
+}
+#mernPic {
+  width: 250px;
+}
+nav a {
+  border-radius: 10px;
+  cursor: pointer;
+}
+#projectBlurb {
+  padding-bottom: 2%;
+  padding: 20px;
+  margin-top: -10px;
+  border-radius: 10px;
+}
+#projectBlurb.darkMode, #blurb.darkMode {
+  background-color: rgb(65, 61, 61);
+  
+}
+#projectBlurb.lightMode, #blurb.lightMode {
+  background-color: rgb(255, 246, 246);
+}
+h3 {
+  /* padding-bottom: 5% !important;
+  padding-top: 10% !important; */
+  /* background-color: purple; */
+}
+#root {
+  /* background-color: rgb(255, 255, 255); */
+  scroll-behavior: smooth;
+  scroll-padding-top: 300px;
+}
+.container {
+  max-width: 100% !important;
+  display: grid;
+}
+.block {
+
+}
+.icon {
+  width: 25px;
+  height: 25px;
+}
+#projectBlurb {
+  text-align: center;
+  width: 40%;
+  justify-self: center;
+  margin-bottom: 9% !important;
+
+}
+#projects.table.table-striped thead tr th:first-child {
+  border-top-left-radius: 10px;
+}
+#projects.table.table-striped thead tr th:last-child {
+  border-top-right-radius: 10px;
+}
+#projects.table.table-striped tbody tr td:first-child {
+  border-bottom-left-radius: 10px;
+}
+#projects.table.table-striped tbody tr td:last-child {
+  border-bottom-right-radius: 10px;
+}
+#projects.table.table-striped {
+  width: 65%;
+  box-shadow: 0px 2px 20px rgb(87, 86, 86);
+  justify-self: center;
+  border-radius: 10px;
+}
+#projects.table.table-striped tr td, #projects.table.table-striped tr th {
+  justify-content: center;
+  align-content: center;
+  font-size: 15px;
+  padding: 2rem;
+}
+#projects.table.table-striped.darkMode tr td, #projects.table.table-striped.darkMode tr th {
+  color: rgb(210, 194, 196) !important;
+}
+#projects.table.table-striped.darkMode tr:nth-child(odd) td {
+  background-color: rgb(30, 30, 38) !important;
+  transition: background-color 0.7s;
+}
+#projects.table.table-striped.darkMode tr:nth-child(even) td {
+  background-color: rgb(53, 53, 62)!important;
+    transition: background-color 0.7s;
+}
+#projects.table.table-striped.lightMode thead tr th {
+  background-color: rgb(241, 233, 234) !important;
+  text-align: center;
+}
+#projects.table.table-striped.darkMode thead tr th {
+  background-color: rgb(89, 84, 84) !important;
+}
+
+
+.lightMode {
+  background-color: white;
+  color: rgb(67, 19, 19);
+  transition-duration: 0.7s;
+  transition-delay: 0.10s;
+}
+
+.darkMode {
+  color: white;
+  background-color: rgb(39, 39, 49);
+  transition-duration: 0.7s;
+  transition-delay: 0.10s;
+}
+
+.iconLarge {
+  width: 50px;
+  height: 50px;
+}
+.iconLarge:hover {
+  background-color: none;
+}
+#blurb {
+}
+
+/** Thank you to Bassohr for this animation **/
+
+/* https://codepen.io/bassohr/pen/MWxzYBq */
+
+p, h2, h3, hr, table, img {
+  /* animation-name: text-appear; @keyframes defined below */
+  /* animation-timing-function: ease-in; standard should be linear */
+  /* animation-fill-mode: both; keeps animated values forwards and backwards */
+  animation: text-appear ease-in both;
+  animation-timeline: view(); /* applies animation state relative to viewport */
+  animation-range: 0vh 30vh; /* set 0% and 100% positions */
+}
+
+
+@prefers-reduced-motion {
+  p, h2, h3, hr, table {
+    animation: none;
+  }
+}
+
+@keyframes text-appear {
+  from {
+    opacity: 0.2;
+    translate: 0 2rem;
+  }
+}
+
+#projectsDiv {
+justify-self: center;
+/* background-color: pink; */
+}
+p {
+  font-size: 1.2rem;
+}
+
+
+#projects {
+
+}
