@@ -19,4 +19,4 @@ function DarkModeToggle({ dark, toggleDark }) {
 
 export { DarkModeToggle };
 
-// Dark mode toggle
+// Light/dark mode toggle
