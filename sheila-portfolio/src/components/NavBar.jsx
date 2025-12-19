@@ -60,7 +60,7 @@ function NavBar({ dark, toggle }) {
                   href="mailto:sheilakazvini@gmail.com"
                   title="Email"
                 >
-                  <img src="src/assets/email.svg" className="icon"></img>
+                  <img src="/portfolio/email.svg" className="icon"></img>
                 </a>
               </li>
               <li className="nav-item">
@@ -70,7 +70,7 @@ function NavBar({ dark, toggle }) {
                   title="Connect On LinkedIn"
                 >
                   <img
-                    src="src/assets/linkedin-logo.svg"
+                    src="/portfolio/linkedin-logo.svg"
                     className="icon"
                   ></img>
                 </a>
@@ -81,7 +81,7 @@ function NavBar({ dark, toggle }) {
                   href="https://github.com/sh00000ly"
                   title="Follow On GitHub"
                 >
-                  <img src="src/assets/github.svg" className="icon"></img>
+                  <img src="/portfolio/github.svg" className="icon"></img>
                 </a>
               </li>
             </ul>

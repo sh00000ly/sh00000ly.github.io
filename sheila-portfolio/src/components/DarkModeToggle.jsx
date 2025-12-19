@@ -8,9 +8,9 @@ function DarkModeToggle({ dark, toggleDark }) {
         title="Toggle Dark Mode"
       >
         {dark ? (
-          <img src="src/assets/moon.svg" className="icon"></img>
+          <img src="/portfolio/moon.svg" className="icon"></img>
         ) : (
-          <img src="src/assets/sun.svg" className="icon"></img>
+          <img src="/portfolio/sun.svg" className="icon"></img>
         )}
       </a>
     </li>
