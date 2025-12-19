@@ -20,7 +20,7 @@ function ProjectTable({ projArray, className }) {
             {/* <td>{p.focus}</td> */}
             <td>
               <a href={p.link} title="Watch Demo">
-                <img src="src/assets/youtube.svg" className="iconLarge"></img>
+                <img src="/portfolio/youtube.svg" className="iconLarge"></img>
               </a>
             </td>
             <td>
@@ -33,7 +33,7 @@ function ProjectTable({ projArray, className }) {
                 }
                 title="Request Source Code"
               >
-                <img src="src/assets/code.svg" className="iconLarge"></img>
+                <img src="/portfolio/code.svg" className="iconLarge"></img>
               </a>
             </td>
           </tr>
